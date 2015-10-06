@@ -21,6 +21,6 @@ Resources:
 
 - Ethereum Ubuntu 64bit Install - https://github.com/ethereum/go-ethereum/wiki/Installation-Instructions-for-Ubuntu
 
-- Ethereum Dependencies Breakdown - https://forum.ethereum.org/discussion/3635/cpp-ethereum-dependencies-breakdown? 
+- Ethereum Dependencies Breakdown - https://forum.ethereum.org/discussion/3635/cpp-ethereum-dependencies-breakdown 
 
 - Simple Cross Compiler by installing package - http://askubuntu.com/questions/250696/cross-compile-for-arm
