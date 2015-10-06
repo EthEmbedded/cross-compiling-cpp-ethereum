@@ -1,5 +1,16 @@
 # Cross-Compiling C++ Ethereum Client
 
+So far the steps are:
+
+- Download & build Crosstool-ng
+
+- `git clone cpp-ethereum`
+
+- When running cmake in folder `~/cpp-ethereum/build` pass the following: `cmake .. -DCMAKE-TOOLCHAIN=cpp-ethereum-cross-compile.cmake`
+
+
+
+
 Resources:
 
 - Crosstool-ng - http://crosstool-ng.org/ - Helps to build gcc toolchain
