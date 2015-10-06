@@ -1,6 +1,6 @@
 # Cross-Compiling C++ Ethereum Client
 
-So far the steps are:
+Steps:
 
 - Download & build Crosstool-ng
 
