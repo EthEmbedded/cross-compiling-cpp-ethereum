@@ -1,12 +1,16 @@
 # Cross-Compiling C++ Ethereum Client
 
-Steps:
+Steps for Ubuntu/Debian:
 
-- Download & build Crosstool-ng
+- `sudo apt-get install gcc-arm-linux-gnueabihf`
 
-- `git clone cpp-ethereum`
-
-- When running cmake in folder `~/cpp-ethereum/build` pass the following: `cmake .. -DCMAKE-TOOLCHAIN=cpp-ethereum-cross-compile.cmake`
+-   `git clone --recursive https://github.com/ethereum/webthree-umbrella
+    cd webthree-umbrella
+    mkdir build
+    cd build
+    cmake .. -DCMAKE_TOOLCHAIN_FILE=cpp-ethereum-cross-compile.cmake
+    make -j4`
+ 
 
 
 
