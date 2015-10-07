@@ -3,6 +3,7 @@
 Steps for Ubuntu/Debian:
 
 - `sudo apt-get install gcc-arm-linux-gnueabihf`
+- `sudo apt-get install g++-arm-linux-gnueabihf`
 - `git clone --recursive https://github.com/ethereum/webthree-umbrella`
 - `cd webthree-umbrella`
 - `mkdir build`
